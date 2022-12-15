@@ -1,9 +1,13 @@
+@use "./assets/sass/variables.scss" as *;
+
 .App {
   margin: 15px;
   // text-align: center;
   border: 2px solid black;
+  background-color: $color-grey;
 }
 
 h1 {
   text-align: center;
 }
+
