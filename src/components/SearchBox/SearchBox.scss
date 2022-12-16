@@ -1,12 +1,12 @@
-@use "../../../assets/sass/variables.scss" as *;
+@use "../../assets/sass/variables" as *;
 
 .nav-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     // width: 15%;
-    border: 2px solid $color-black;
-    margin: 5px;
+    // height: 100vh;
+    
 }
 
 .search-box {
