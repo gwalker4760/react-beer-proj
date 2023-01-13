@@ -1,0 +1,7 @@
+@use "../../assets/sass/variables";
+
+.tile__layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
