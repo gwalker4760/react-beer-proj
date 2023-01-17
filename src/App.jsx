@@ -1,4 +1,4 @@
-//import { useState } from "react";
+
 import "./App.scss";
 import FilterCheckBoxes from "./components/FilterCheckBoxes/FilterCheckBoxes";
 import SearchBox from "./components/SearchBox/SearchBox";
@@ -77,7 +77,7 @@ function App() {
           <FilterCheckBoxes
             label1={"High ABV (>6.0%)"}
             label2={"Classic Range"}
-            label3={"Acidic (ph <4)"}
+            label3={"Acidic (ph < 4)"}
             toggleHighABV = {toggleHighABV}
             toggleClassic = {toggleClassic}
             toggleCheckAcidic = {toggleCheckAcidic}
